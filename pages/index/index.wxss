@@ -15,19 +15,20 @@
 }
 .page-body .input{
     width: 80%;
+    height: 60rpx;
     font-size: 30rpx;
     /*background: hotpink;*/
     border: 1rpx solid #000;
 }
 .page-body button{
-    flex-grow: 1;
-    height: 50rpx;
+    flex: 1;
+    height: 60rpx;
     font-size: 30rpx;
     text-align: center;
     line-height: 50rpx;
     background: gray;
 }
-.list {
+.lists {
     border-bottom: 1rpx solid #999;
     padding: 20rpx 20rpx;
 }

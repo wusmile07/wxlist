@@ -1,1 +1,7 @@
-/* views/index/index.wxss */
+
+.btn{
+    width:200rpx;
+    height: 100rpx;
+    margin-top: 20rpx;
+    background: blue;
+}

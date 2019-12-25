@@ -1,12 +1,12 @@
 .title {
   padding: 0;
   text-align: left;
-  font-size: 40rpx;
+  font-size: 30rpx;
   font-weight: bold;
 }
 
 .weui-cell {
-  height: 30rpx;
+  height: 50rpx;
   font-size: 30rpx;
   border: 1rpx solid #000;
   padding: 15rpx 15rpx;

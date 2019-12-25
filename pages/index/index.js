@@ -27,7 +27,6 @@ Page({
   getVal() {
     const self = this
     if (self.data.itemVal) {
-      // console.log(this.data.itemVal)
       wx.showModal({
         title: '提示',
         content: this.data.itemVal,
@@ -48,7 +47,6 @@ Page({
     }
   },
   onInputChange(e) {
-    // this.data.itemVal = e.detail.value
     this.setData({
       itemVal: e.detail.value
     })

@@ -19,8 +19,8 @@
         />
   <button bindtap="getVal">提交</button>
   </view>
-<view class="list" wx:for="{{list}}" wx:key="*this">
-  <navigator url="../show/show?objectId={{item.id}}" class="title">
+<view class="lists" wx:for="{{list}}" wx:key="*this">
+  <navigator url="../show/show?objectId={{item.id}}" class="title" open-type="switchTab">
     {{index +1 }}: {{item.title}}
   </navigator>
 </view>

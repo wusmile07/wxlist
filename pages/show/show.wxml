@@ -17,6 +17,6 @@
     <button bindtap="onEdit" class="dec">
       {{ isEdit ? '提交': '编辑' }}
     </button>
-    <button class="del">删除</button>
+    <button class="del" bindtap="del">删除</button>
   </view>
 </view>
