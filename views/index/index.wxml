@@ -1,0 +1,4 @@
+<!--views/index/index.wxml-->
+<button bindtap="scanCode">扫码</button>
+
+
