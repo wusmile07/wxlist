@@ -1,6 +1,5 @@
 
 Page({
-
   scanCode() {
     wx.scanCode({
       success (res) {

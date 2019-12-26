@@ -2,8 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/show/show",
-    "views/index/index"
-
+    "views/index/index",
+    "create/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,16 +20,16 @@
         "selectedIconPath": "pages/icon/redhome.png"
       },
       {
-        "pagePath": "pages/show/show",
-        "text": "详情",
-        "iconPath": "pages/icon/des.png",
-        "selectedIconPath": "pages/icon/reddes.png"
-      },
-      {
         "pagePath": "views/index/index",
         "text": "二维码",
         "iconPath": "pages/icon/code.png",
         "selectedIconPath": "pages/icon/redcode.png"
+      },
+      {
+        "pagePath": "create/index/index",
+        "text": "生成二维码",
+        "iconPath": "pages/icon/qrcode.png",
+        "selectedIconPath": "pages/icon/redqrcode.png"
       }
     ]
   },

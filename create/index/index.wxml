@@ -1,0 +1,11 @@
+<!--views/index/index.wxml-->
+<view>
+<view class="page-body">
+    <input class="input"
+           placeholder="请输入标题"
+    />
+    <button class="btn">生成</button>
+</view>
+<canvas  canvas-id="myQrcode" class="qrcode"></canvas>
+</view>
+

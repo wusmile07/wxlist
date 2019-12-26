@@ -33,7 +33,21 @@ Page({
       }).then(res => {
         console.log(res)
       })
-
+    } else {
+      this.setData({
+        isEdit: true
+      })
+    }
+  },
+  del() {
+    if (this.data.isEdit) {
+      app.http({
+        url: `/articles/${this.data.objectId}`,
+        method: 'Delete',
+        data: this.data.article
+      }).then(res => {
+        console.log(res)
+      })
     } else {
       this.setData({
         isEdit: true

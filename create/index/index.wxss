@@ -1,0 +1,30 @@
+.page-body{
+    width: 100%w;
+    height: 40rpx;
+    margin-top: 30rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 500rpx;
+    height: 40rpx;
+    border: 1px solid #999;
+}
+
+.btn{
+    width: 200rpx;
+    height: 60rpx;
+    background: blue;
+    color: white;
+    text-align: center;
+    line-height: 60rpx;
+    margin-right: 20rpx;
+}
+
+.qrcode{
+    width: 200px;
+    height: 200px;
+    background: #999999;
+    margin: 100rpx auto;
+}
