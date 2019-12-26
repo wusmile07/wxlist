@@ -28,7 +28,7 @@
     line-height: 50rpx;
     background: gray;
 }
-.lists {
+.lists{
     border-bottom: 1rpx solid #999;
     padding: 20rpx 20rpx;
 }

@@ -17,7 +17,7 @@
                value="{{itemVal}}"
                bindinput="onInputChange"
         />
-  <button bindtap="getVal">提交</button>
+  <button bindtap="getVal">创建</button>
   </view>
 <view class="lists" wx:for="{{list}}" wx:key="*this">
   <navigator navigator url="../show/show?objectId={{item.id}}" class="title">

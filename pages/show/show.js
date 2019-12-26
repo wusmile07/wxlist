@@ -31,6 +31,9 @@ Page({
         method: 'PUT',
         data: this.data.article
       }).then(res => {
+        wx.navigateBack({
+          delta:1
+        })
         console.log(res)
       })
     } else {
@@ -46,9 +49,13 @@ Page({
         method: 'Delete',
         data: this.data.article
       }).then(res => {
+        wx.navigateBack({
+          delta:1
+        })
         console.log(res)
       })
-    } else {
+    }
+    else {
       this.setData({
         isEdit: true
       })

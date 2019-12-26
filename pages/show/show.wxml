@@ -3,7 +3,7 @@
   <text class="title">详情页</text>
   <view class="weui-cell ">
     <view wx:if="{{ !isEdit }}">{{ article.title }}</view>
-    <input wx:else bindinput="onInputChange" id="title" data-type="title" value="{{article.title}}" class="weui-input" maxlength="10" placeholder="输入标题" />
+    <input wx:else bindinput="onInputChange" id="title" data-type="title" value="{{article.title}}" class="weui-input" maxlength="20" placeholder="输入标题" />
   </view>
   <view class="weui-cell ">
     <view wx:if="{{ !isEdit }}">{{ article.description }}</view>

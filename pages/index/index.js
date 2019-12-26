@@ -12,7 +12,7 @@ Page({
     autoplay: true,
     interval: 2000,
     duration: 500,
-    itemVal: ''
+    itemVal: '',
   },
   onShow() {
     const self = this
@@ -29,9 +29,18 @@ Page({
     if (self.data.itemVal) {
       wx.showModal({
         title: '提示',
-        content: this.data.itemVal,
+        content:this.data.itemVal,
         success (res) {
           if (res.confirm) {
+              app.http({
+                url: `/articles`,
+                method: 'POST',
+                data: {
+                  title:self.data.itemVal
+                }
+              }).then(res => {
+                console.log(res)
+              })
             self.setData({
               itemVal: ''
             })
