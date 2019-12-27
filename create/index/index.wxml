@@ -2,9 +2,9 @@
 <view>
 <view class="page-body">
     <input class="input"
-           placeholder="请输入标题"
+           placeholder="请输入标题" value='{{name}}'
     />
-    <button class="btn">生成</button>
+    <button class="btn"  bindtap="sh">生成</button>
 </view>
 <canvas  canvas-id="myQrcode" class="qrcode"></canvas>
 </view>
